@@ -9,29 +9,30 @@
 <body>
 
 <div class="nav-overlay">
-  <nav class="nav-links">
+  <div class="nav-links">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="gallery.html">Gallery</a>
     <a href="project.html">Projects</a>
     <a href="contact.html">Contact</a>
-  </nav>
+  </div>
   <div class="nav-overlay-socials">
-    <a href="#" target="_blank">Facebook</a>
-    <a href="#" target="_blank">Instagram</a>
-    <a href="#" target="_blank">LinkedIn</a>
+    <a href="https://www.instagram.com/jannatulferdushany052?igsh=MWl2NGdibG82cG94cg==" target="_blank">Instagram</a>
+    <a href="mailto:jannatulferdushany052@gmail.com">Email</a>
   </div>
 </div>
 
 <nav>
   <a class="nav-brand" href="index.html">Jannatul<span>.</span></a>
-  <div class="hamburger"><span></span><span></span><span></span></div>
+  <div class="hamburger" role="button" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </div>
 </nav>
 
 <div class="page-hero">
   <div class="container">
     <span class="tag">Say Hello</span>
-    <h1 class="section-title" style="font-size:clamp(2.4rem,5vw,4rem); margin-top:.4rem;">Get In <em>Touch</em></h1>
+    <h1 class="section-title" style="font-size:clamp(2.5rem,5vw,4.2rem);margin-top:.4rem;">Get In <em>Touch</em></h1>
     <p>Whether it's a collaboration, a question, or just a warm hello — I'd love to hear from you.</p>
   </div>
 </div>
@@ -40,18 +41,18 @@
   <div class="container">
     <div class="contact-layout">
 
-      <!-- LEFT -->
+      <!-- LEFT: Info & Social -->
       <div class="contact-info reveal">
         <span class="tag">Contact Details</span>
         <h2 class="section-title">Find Me <em>Here</em></h2>
         <p>
-          I'm always open to meaningful conversations — whether you're a fellow student,
-          a parent of one of my students, or simply someone who resonates with my story.
+          Open to meaningful conversations — whether you're a fellow educator, a student,
+          or someone who simply resonates with my story. Drop a message any time!
         </p>
 
         <div class="status-pill">
           <div class="status-dot"></div>
-          Currently Available for Collaborations
+          Available for Collaborations
         </div>
 
         <div class="c-details">
@@ -66,15 +67,23 @@
             <div class="c-icon">📧</div>
             <div>
               <div class="c-label">Email</div>
-              <!-- Replace with actual email -->
-              <div class="c-val">your.email@gmail.com</div>
+              <div class="c-val">
+                <a href="mailto:jannatulferdushany052@gmail.com">jannatulferdushany052@gmail.com</a>
+              </div>
             </div>
           </div>
           <div class="c-row">
             <div class="c-icon">🎓</div>
             <div>
+              <div class="c-label">Education</div>
+              <div class="c-val">BSc Business — University of Oxford</div>
+            </div>
+          </div>
+          <div class="c-row">
+            <div class="c-icon">👩‍🏫</div>
+            <div>
               <div class="c-label">Role</div>
-              <div class="c-val">Business Student · Teacher</div>
+              <div class="c-val">Teacher &amp; Business Graduate</div>
             </div>
           </div>
           <div class="c-row">
@@ -87,43 +96,39 @@
         </div>
 
         <!-- Social Links -->
-        <p class="social-section-title">Follow Me On</p>
+        <p class="social-section-title">Connect With Me</p>
         <div class="social-grid">
 
-          <!--
-          Replace # with your actual links:
-          Facebook  → https://facebook.com/YOUR_PAGE
-          Instagram → https://instagram.com/YOUR_HANDLE
-          YouTube   → https://youtube.com/@YOUR_CHANNEL
-          LinkedIn  → https://linkedin.com/in/YOUR_PROFILE
-          -->
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/jannatulferdushany052?igsh=MWl2NGdibG82cG94cg==" target="_blank" class="social-card">
+            <i class="s-icon s-ig">&#128247;</i>
+            <div>
+              <div class="s-name">Instagram</div>
+              <div class="s-handle">@jannatulferdushany052</div>
+            </div>
+          </a>
 
+          <!-- Email -->
+          <a href="mailto:jannatulferdushany052@gmail.com" class="social-card">
+            <i class="s-icon s-em">✉</i>
+            <div>
+              <div class="s-name">Gmail</div>
+              <div class="s-handle">jannatulferdushany052</div>
+            </div>
+          </a>
+
+          <!-- Facebook — replace # with your URL -->
           <a href="#" target="_blank" class="social-card">
-            <div class="s-icon s-fb">f</div>
+            <i class="s-icon s-fb">f</i>
             <div>
               <div class="s-name">Facebook</div>
               <div class="s-handle">Jannatul Ferdush Any</div>
             </div>
           </a>
 
+          <!-- LinkedIn — replace # with your URL -->
           <a href="#" target="_blank" class="social-card">
-            <div class="s-icon s-ig">&#128247;</div>
-            <div>
-              <div class="s-name">Instagram</div>
-              <div class="s-handle">@jannatul.any</div>
-            </div>
-          </a>
-
-          <a href="#" target="_blank" class="social-card">
-            <div class="s-icon s-yt">&#9654;</div>
-            <div>
-              <div class="s-name">YouTube</div>
-              <div class="s-handle">Jannatul Ferdush Any</div>
-            </div>
-          </a>
-
-          <a href="#" target="_blank" class="social-card">
-            <div class="s-icon s-li">in</div>
+            <i class="s-icon s-li">in</i>
             <div>
               <div class="s-name">LinkedIn</div>
               <div class="s-handle">Jannatul Ferdush Any</div>
@@ -131,43 +136,79 @@
           </a>
 
         </div>
+
+        <!-- Direct email button -->
+        <a href="mailto:jannatulferdushany052@gmail.com" class="btn btn-dark" style="width:100%;justify-content:center;margin-top:.5rem;">
+          ✉ Send Direct Email
+        </a>
       </div>
 
-      <!-- RIGHT: Form -->
+      <!-- RIGHT: Contact Form -->
       <div class="reveal">
         <span class="tag">Send a Message</span>
-        <h2 class="section-title" style="margin-bottom:1.8rem;">Write to <em>Me</em></h2>
+        <h2 class="section-title" style="margin-bottom:.6rem;">Write to <em>Me</em></h2>
 
-        <form class="contact-form" novalidate>
+        <p style="font-size:.85rem;color:var(--mid);margin-bottom:1.8rem;line-height:1.7;">
+          Fill out the form below and your message will be delivered directly to my inbox at
+          <strong style="color:var(--rose);">jannatulferdushany052@gmail.com</strong>
+        </p>
+
+        <!--
+          HOW THE FORM WORKS:
+          1. Go to https://formspree.io
+          2. Sign up free with jannatulferdushany052@gmail.com
+          3. Create a new form → copy your form ID (looks like: xpzgkwab)
+          4. Replace "YOUR_FORM_ID" below with that ID
+          Example: action="https://formspree.io/f/xpzgkwab"
+
+          Until then, use the "Send Direct Email" button on the left.
+        -->
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/YOUR_FORM_ID"
+          method="POST"
+        >
+          <!-- Hidden field so Formspree knows where to send -->
+          <input type="hidden" name="_replyto" value="jannatulferdushany052@gmail.com"/>
+          <input type="hidden" name="_subject" value="New message from your portfolio website"/>
+
           <div class="form-row">
             <div class="form-group">
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" placeholder="Your first name"/>
+              <label for="fname">First Name *</label>
+              <input type="text" id="fname" name="first_name" placeholder="Your first name" required/>
             </div>
             <div class="form-group">
               <label for="lname">Last Name</label>
-              <input type="text" id="lname" placeholder="Your last name"/>
+              <input type="text" id="lname" name="last_name" placeholder="Your last name"/>
             </div>
           </div>
           <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" placeholder="your@email.com"/>
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required/>
           </div>
           <div class="form-group">
             <label for="subject">Subject</label>
-            <input type="text" id="subject" placeholder="What is this about?"/>
+            <input type="text" id="subject" name="subject" placeholder="What is this about?"/>
           </div>
           <div class="form-group">
-            <label for="msg">Your Message</label>
-            <textarea id="msg" placeholder="Write your message here..."></textarea>
+            <label for="msg">Your Message *</label>
+            <textarea id="msg" name="message" placeholder="Write your message here..." required></textarea>
           </div>
           <button type="submit" class="form-submit">Send Message</button>
         </form>
 
-        <div style="margin-top:1.2rem; display:flex; gap:1.5rem; flex-wrap:wrap;">
-          <span style="font-size:.8rem; color:var(--mid);">🔒 Your info is safe</span>
-          <span style="font-size:.8rem; color:var(--mid);">📬 I read every message</span>
-          <span style="font-size:.8rem; color:var(--mid);">⚡ Quick response</span>
+        <div style="margin-top:1.2rem;display:flex;gap:1.5rem;flex-wrap:wrap;">
+          <span style="font-size:.8rem;color:var(--mid);">🔒 Your info is safe</span>
+          <span style="font-size:.8rem;color:var(--mid);">📬 I read every message</span>
+          <span style="font-size:.8rem;color:var(--mid);">⚡ Quick response</span>
+        </div>
+
+        <!-- Formspree setup note (can delete after setup) -->
+        <div style="margin-top:2rem;padding:1.2rem;background:var(--cream2);border-left:3px solid var(--gold);font-size:.82rem;color:var(--mid);line-height:1.7;">
+          <strong style="color:var(--dark);">📌 One-time setup needed:</strong><br/>
+          To activate this form, visit <a href="https://formspree.io" target="_blank" style="color:var(--rose);">formspree.io</a>,
+          sign up free, create a form, and replace <code>YOUR_FORM_ID</code> in contact.html with your form ID.
+          Or just use the <strong>Send Direct Email</strong> button — it works right away!
         </div>
       </div>
 
